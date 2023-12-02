@@ -1,13 +1,16 @@
+#header{
+    background-color:rgb(7, 2, 29) ;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
-    background-color: rgb(7, 2, 29)
+    /* background-color: rgb(7, 2, 29) */
 }
 .container{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +20,29 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap: 30px;
+    border: solid rgb(141, 137, 156);
+    padding: 2%;
 }
 .gallery img{
     width: 100%;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-bottom: -40px; */
+    font-family: fantasy;
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(111, 138, 197);
+    text-decoration:underline;
+    text-decoration-color: rgb(125, 125, 139);
+    text-decoration-line: overline;
+}
+.name i{
+    font-size: 300%;
+    font-weight: 800;
+    color: rgb(141, 137, 156);
+    text-shadow: antiquewhite;
 }
